@@ -1,0 +1,32 @@
+.grid-containers {
+  display: grid;
+  grid-template-columns: 350px 350px;
+  column-gap: 20px;
+  row-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.part {
+  background-color: white;
+  height: 200px;
+  border-radius: 8px;
+  border-left: 8px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.part-1 {
+  margin-top: 130px;
+  background-color: white;
+  height: 200px;
+  border-radius: 8px;
+  border-left: 8px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 190px;
+}

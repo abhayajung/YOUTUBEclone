@@ -1,0 +1,129 @@
+.header {
+  height: 170px;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 0;
+
+  background-color: white;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(203, 201, 201);
+}
+.left-section {
+  width: 390px;
+}
+
+.middle-section {
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+}
+
+.right-section {
+  background-color: white;
+  width: 550px;
+}
+
+.search-button {
+  border: none;
+  height: 27px;
+  margin-bottom: 100px;
+  margin-left: -160px;
+}
+
+.search-bar {
+  border: none;
+  background-color: rgb(204, 203, 203);
+  border-radius: 20px;
+  width: 590px;
+  height: 20px;
+  margin-bottom: 100px;
+  margin-left: 90px;
+  height: 28px;
+}
+
+.notification-icon {
+  height: 26px;
+}
+
+.notification-icon-container {
+  margin-left: 90px;
+  margin-top: 28px;
+}
+
+.profile-pictures {
+  height: 43px;
+  border-radius: 22px;
+}
+
+.profile {
+  margin-left: 160px;
+  margin-top: -35px;
+}
+
+.name {
+  margin-left: 239px;
+  margin-top: -35px;
+  font-family: Roboto, Arial;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.serch {
+  border-radius: 35px;
+  height: 70px;
+}
+
+.sarch {
+  margin-left: -40px;
+  margin-top: 60px;
+}
+
+.button-1 {
+  background-color: rgb(15, 148, 192);
+  border: none;
+  height: 35px;
+  border-radius: 19px;
+  width: 90px;
+  color: white;
+  margin-top: 70px;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+.button-2 {
+  background-color: rgb(15, 148, 192);
+  border: none;
+  height: 35px;
+  border-radius: 19px;
+  width: 90px;
+  color: white;
+  margin-top: 70px;
+  margin-right: 20px;
+}
+.button-3 {
+  background-color: rgb(15, 148, 192);
+  border: none;
+  height: 35px;
+  border-radius: 19px;
+  width: 90px;
+  color: white;
+  margin-top: 70px;
+  margin-right: 60px;
+}
+
+.new {
+  font-family: Roboto, arial;
+  font-size: 16px;
+}
