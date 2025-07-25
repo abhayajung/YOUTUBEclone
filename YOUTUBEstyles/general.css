@@ -1,0 +1,29 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  font-family: Roboto, arial;
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color: rgb(248, 248, 248);
+}
+
+<div class="right-section">
+        <div class="notification-bell">
+          <img class="notification-icon" src="ICONS/bell-ring.svg">
+        </div>
+      </div>
+      <div class="channel-icon">
+        <img class="channel-icon-circle"  src="channel-pictures/channel-1.jpeg">
+      </div>
+      <div class="NAME">
+        <h3>MORGAN OAKLEY</h3>
+      </div>
+
+      <div class="search-buttom">
+          <img class="search" src="ICONS/magnify.svg">
+         </div>
